@@ -1,0 +1,333 @@
+
+/* 
+    Theme Name: Team
+    Author: Бесценный Андрей
+    Author URI: http://vk.com/and_bes
+    Version: 1.0 (beta)
+*/
+body,html {
+    margin:0;
+    padding: 0;
+}
+
+*{
+    font-family:Open Sans;
+}
+ /* header style*/
+.navbar-default{     
+      border: none;
+      border-bottom: 3px solid white;;
+      box-shadow: none;  
+}
+.navbar,
+.container-fluid{
+    background-color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+
+.navbar,
+.container-fluid,
+.nav li{
+    height: 100px;
+}
+@media  screen and (max-width: 737px) {
+
+    #navbar {
+        color:black;
+        background-color: white;
+    }
+    #navbar li{
+        font-size: 40px;
+        z-index: 5;
+    }
+
+}
+
+/*центруем текст в меню */
+.navbar-brand,
+.menu-item > a {
+    margin: 25px auto
+}
+
+.navbar-brand{
+    width:370px; 
+    text-align: center;
+}
+
+
+/* цвет при активной вкладке */
+.current_page_item,
+.current-menu-item{
+   
+    background-color: #f8f9fb; 
+    border-bottom: 3px solid #49cbcd;
+}
+
+
+.current_page_item  > a{
+     color: #78d5d7 !important;
+     font-weight: bold;
+}
+
+#logoPlace{
+    display: inline-block;
+    background-position: center center !important;
+    
+}
+
+/*end header style*/
+
+#firstBlock{
+    padding-top: 0;
+    background: url(./pic/ficher.jpeg) no-repeat ;
+    background-size: cover;
+    color:white;
+    padding-bottom: 100px;
+}
+
+#firstBlock > div{
+   margin: 28px;
+}
+
+#firstBlock > div  p{
+   font-size: x-large
+}
+
+#firstBlock  h1{
+  padding-top: 75px;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.glassy-button{
+    margin-top: 44px;;
+    display: inline-block;
+    font-size: 25px;;
+    padding: 12px 42px;
+    color:white;
+    border:3px solid  white ;
+   
+    border-radius: 7px;
+}
+
+.glassy-button:hover{
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+    text-shadow: 3px 1px  blue;
+    box-shadow: 0px 0px 3px 3px   blue;
+}
+#secondBlock {
+    text-align: center;
+    margin: 44px auto 75px;;
+}
+#secondBlock .pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #49cbcd;
+    margin:  45px auto;
+    color: #49cbcd;
+}
+
+#secondBlock .pic{
+    background: url(./pic/rocket.png) no-repeat center ;
+}
+
+#secondBlock > div{
+    text-align: center;
+    padding: 20px;
+   
+}
+
+#secondBlock > div > p {
+     margin: 15px auto  10px;
+     line-height: 28px;
+}
+
+.aquamarineButton{
+    color:white;
+    display: inline-block;
+    background-color: #49cbcd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.aquamarineButton:hover{
+    text-decoration: none;
+    box-shadow: 0px 0px 3px 3px   blue;
+}
+
+
+
+#thirdBlock ,#fifthdBlock{
+    background-color: #f1f1f1;
+}
+#thirdBlock .picPort , 
+#thirdBlock img{
+    width: 315px;
+    height: 315px;
+}
+#thirdBlock .picPort{
+    text-align: center;
+    background-color: burlywood;
+    margin: 30px auto;
+}
+
+#thirdBlock >div{
+    padding: 0;
+}
+
+.title{
+    padding: 28px;
+    font-size: 40px;
+    color: #4e525d;
+}
+
+#thirdBlock .aquamarineButton{
+    font-size: 24px;
+    margin: 40px auto 110px;; 
+    padding: 15px 16px;
+}
+
+#fourthdBlock{
+   padding: 65px 0px 100px 0px;
+}
+
+#fourthdBlock h2{
+    margin: 17px  auto 17px;
+}
+
+#fourthdBlock .pic,
+#fourthdBlock .pic  img{
+    display:block;
+    width: 200px;
+    height: 200px;
+    background-color: #eeeef0 ;
+    border-radius: 50%;
+    margin:   60px  auto;
+}
+
+#fourthdBlock .info{
+    line-height: 23px;
+}
+#fifthdBlock{
+    padding: 0;
+}
+#fifthdBlock > div{
+    height: 358px;
+}
+
+#fifthdBlock .title{
+    padding-top: 12px;
+}
+
+#fifthdBlock p{
+    font-size: 18px;
+    line-height: 29px;
+}
+
+#fifthdBlock .name{
+    font-family: Courier New ;
+    color: #b3abc2;
+}
+
+
+#sixthdBlock{
+    background: url(./pic/forma.png);
+    padding-bottom: 74px;
+    //height: 691px;
+}
+
+#sixthdBlock h2 {
+    color: white;
+    padding: 80px 0px 85px 0px;
+}
+
+#sixthdBlock h3 {
+    color: white;
+    padding: 5px 0px 0px 0px; 
+}
+
+#sixthdBlock p {
+    color: #aaaaaa;
+    padding: 0px 0px 5px 0px; 
+}
+
+#sixthdBlock .contacts {
+    color: #a898c7;
+    padding: 0px 0px 0px 0px; 
+    
+}
+
+#sixthdBlock form{
+    padding: 250px 0px 0px 0px;
+}
+
+#sixthdBlock form *:not(input){
+    padding-bottom: 32px;
+}
+
+#sixthdBlock form input {
+    height: 45px;
+}
+
+#sixthdBlock form textarea {
+    height: 180px;
+}
+
+#sixthdBlock form .aquamarineButton {
+    font-size: 19px;
+}
+
+
+
+/* modal window */
+#modal_form {
+	width: 300px; 
+	height: 300px; /* Рaзмеры дoлжны быть фиксирoвaны */
+	border-radius: 5px;
+	border: 3px #000 solid;
+	background: #fff;
+	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+	top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+	left: 50%; /* пoлoвинa экрaнa слевa */
+	margin-top: -150px;
+	margin-left: -150px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+	display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+	opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+	z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+	padding: 20px 10px;
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+#modal_form #modal_close {
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: block;
+}
+/* Пoдлoжкa */
+#overlay {
+	z-index: 3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+	position: fixed; /* всегдa перекрывaет весь сaйт */
+	background-color: #000; /* чернaя */
+	opacity: 0.8; /* нo немнoгo прoзрaчнa */
+	width: 100%; 
+	height: 100%; /* рaзмерoм вo весь экрaн */
+	top: 0; 
+	left: 0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	cursor: pointer;
+	display: none; /* в oбычнoм сoстoянии её нет) */
+}
+#modal_form .cont{
+    text-align: center;
+    vertical-align: middle;
+    margin: 100px auto;
+    
+}
