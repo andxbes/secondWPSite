@@ -58,7 +58,7 @@ get_header();
 		</div>
 	<?php endfor; ?>
 
-	<div class='col-md-4 col-md-offset-4'>
+	<div class='col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3'>
 		<a class='aquamarineButton' href="<?= getField( 'porfoliolink' ) ?>">Посмотреть все</a>
 	</div>
 
@@ -174,7 +174,7 @@ get_header();
 				<div class="col-md-12 col-xs-12">
 					<textarea class="form-control" id="text" name="text" aria-describedby="message" placeholder="Сообщение" required ></textarea>
 				</div>
-				<div class="col-md-4 col-md-offset-8">
+				<div class="col-md-4 col-md-offset-8 col-sm-4 col-sm-offset-8  col-xs-6 col-xs-offset-6 ">
 					<input type="button" id="submitButton" class="btn  form-control  aquamarineButton" value="Отправить">
 				</div>
 
